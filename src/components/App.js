@@ -1,12 +1,16 @@
 import React, {useEffect, useState} from 'react'
 import '../styles/App.css';
 
-const App = () => {
-  function App() {
-  const [isRed, setRed] = useState(true);
+function App() {
+  const [isRed, setIsRed] = useState(true);
 
-  const handleClick = () => {
-    setRed(!isRed);
+const App = () => {
+  setIsRed(!isRed);
+//   function App() {
+//   const [isRed, setRed] = useState(true);
+
+//   const handleClick = () => {
+//     setRed(!isRed);
   };
 //code here 
   return (
