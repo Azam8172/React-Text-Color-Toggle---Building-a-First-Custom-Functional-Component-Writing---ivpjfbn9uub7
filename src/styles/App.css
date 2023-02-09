@@ -12,3 +12,10 @@ color: blue;
   font-style: italic;
 
 }
+
+#button {
+  padding: 10px 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
