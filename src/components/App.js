@@ -11,7 +11,7 @@ const App = () => {
 //code here 
   return (
     <div id="main">
-      <p className={isRed ? 'red' : 'blue'} >Newton School</p>
+      <p className={isRed ? 'redcolor' : 'bluecolor'} >Newton School</p>
       <button id='button' onClick={}>Change Style</button>
     </div>
   )
